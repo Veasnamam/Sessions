@@ -1,6 +1,6 @@
 <?php
-$dsn = 'mysql:host=localhost;dbname=zippyusedautos';
-$username = 'root';
+$dsn = 'mysql:host=wb39lt71kvkgdmw0.cbetxkdyhwsb.us-east-1.rds.amazonaws.com;dbname=n01y8vwc04ldg7mn';
+$username = 'nldidv3lwyl10bdv';
 
 try {
     $db = new PDO($dsn, $username);
