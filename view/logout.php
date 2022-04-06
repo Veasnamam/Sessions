@@ -23,7 +23,7 @@ session_destroy();
 setcookie('userid', $firstname, time() - 3600);
 ?>
 
-<h2>Thank you for signing out, <?= $firstname ?></h2>
+<h2>Thank you for signing out, <?= $firstname ?>.</h2>
 <p><a href=".?action=list_vehicles">Click Here</a> to view our full vehicle list.</p>
 
 <?php include('view/footer.php'); ?>
